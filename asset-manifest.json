@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/portfolio-pauline-dero/static/css/main.d9f45def.chunk.css",
+    "main.js": "/portfolio-pauline-dero/static/js/main.a0f53eae.chunk.js",
+    "main.js.map": "/portfolio-pauline-dero/static/js/main.a0f53eae.chunk.js.map",
+    "runtime-main.js": "/portfolio-pauline-dero/static/js/runtime-main.171c1258.js",
+    "runtime-main.js.map": "/portfolio-pauline-dero/static/js/runtime-main.171c1258.js.map",
+    "static/js/2.1af65e8a.chunk.js": "/portfolio-pauline-dero/static/js/2.1af65e8a.chunk.js",
+    "static/js/2.1af65e8a.chunk.js.map": "/portfolio-pauline-dero/static/js/2.1af65e8a.chunk.js.map",
+    "static/js/3.f860ec8a.chunk.js": "/portfolio-pauline-dero/static/js/3.f860ec8a.chunk.js",
+    "static/js/3.f860ec8a.chunk.js.map": "/portfolio-pauline-dero/static/js/3.f860ec8a.chunk.js.map",
+    "index.html": "/portfolio-pauline-dero/index.html",
+    "static/css/main.d9f45def.chunk.css.map": "/portfolio-pauline-dero/static/css/main.d9f45def.chunk.css.map",
+    "static/js/2.1af65e8a.chunk.js.LICENSE.txt": "/portfolio-pauline-dero/static/js/2.1af65e8a.chunk.js.LICENSE.txt",
+    "static/media/design-blue.278b1e16.png": "/portfolio-pauline-dero/static/media/design-blue.278b1e16.png",
+    "static/media/dev-blue.26ac1a7a.png": "/portfolio-pauline-dero/static/media/dev-blue.26ac1a7a.png",
+    "static/media/diploma-white.58d5fe92.png": "/portfolio-pauline-dero/static/media/diploma-white.58d5fe92.png",
+    "static/media/email.59027450.png": "/portfolio-pauline-dero/static/media/email.59027450.png",
+    "static/media/family.10c5d550.png": "/portfolio-pauline-dero/static/media/family.10c5d550.png",
+    "static/media/github.fb07f815.png": "/portfolio-pauline-dero/static/media/github.fb07f815.png",
+    "static/media/languages-white.7938ff2c.png": "/portfolio-pauline-dero/static/media/languages-white.7938ff2c.png",
+    "static/media/location.3c5a0a73.png": "/portfolio-pauline-dero/static/media/location.3c5a0a73.png",
+    "static/media/pauline-dero.61ee84ba.jpeg": "/portfolio-pauline-dero/static/media/pauline-dero.61ee84ba.jpeg",
+    "static/media/phone.77fef196.png": "/portfolio-pauline-dero/static/media/phone.77fef196.png",
+    "static/media/seo-blue.05a40742.png": "/portfolio-pauline-dero/static/media/seo-blue.05a40742.png",
+    "static/media/tools.6f3cd04a.png": "/portfolio-pauline-dero/static/media/tools.6f3cd04a.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.171c1258.js",
+    "static/js/2.1af65e8a.chunk.js",
+    "static/css/main.d9f45def.chunk.css",
+    "static/js/main.a0f53eae.chunk.js"
+  ]
+}
