@@ -1,0 +1,94 @@
+#contactform {
+    margin-top:50px;
+    padding: 20px;
+    background-color: #526779;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+@media screen and (max-width : 768px) {
+    #contactform {
+        flex-direction: column;
+    }
+}
+
+.contact-titles {
+    margin-top: 0px;
+    font-family: 'Noto Sans JP', sans-serif;
+    color:white;
+}
+@media screen and (max-width : 768px) {
+    .contact-titles {
+        text-align: center;
+        margin-top: 25px;
+    }
+}
+
+.contact-box {
+    margin: 15px 0px 15px 0px;
+    display: flex;
+    flex-direction: row;
+}
+@media screen and (max-width : 768px) {
+    .contact-box  {
+        justify-content: center;
+    }
+}
+
+.contact-icons {
+    height: 30px;
+}
+
+.contact-data {
+    margin:auto 5px auto 5px;
+    font-family: 'Noto Sans JP', sans-serif;
+    color: white;
+}
+
+.social-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.social-icon {
+    padding:10px 0px 10px 0px;
+    width: 100px;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+@media screen and (max-width : 768px) {
+    #form {
+        display : none;
+    }
+}
+
+.title-form {
+    font-family: 'Noto Sans JP', sans-serif;
+    color:white;
+}
+
+.input-form {
+    width: auto;
+    margin: 5px;
+}
+
+.input-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.button-form{
+    float: right;
+    margin: 5px;
+}
+
+
+
+

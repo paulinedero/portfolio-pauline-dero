@@ -1,0 +1,70 @@
+.hobby-colored-box {
+    height: auto;
+    margin-top: 100px;
+    background-color: #9A9FAD;
+}
+.hobby-title {
+    padding-top: 20px;
+    padding-bottom: 50px;
+    font-family: 'Noto Sans JP', sans-serif;
+    color: white;
+    font-size: 40pt;
+    text-align: center;
+}
+
+.hobby-info {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.all-hobbies {
+    margin: -60px auto 0px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+@media screen and (max-width : 768px) {
+    .all-hobbies {
+        margin: 0px auto 0px auto;
+        flex-direction: column;        
+    }
+}
+
+.hobby-blocks {
+    width: 450px;
+    margin: 0px 10px 0px 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Noto Sans JP', sans-serif;
+    background-color: white;
+    border: solid  #9A9FAD 1px;
+    border-radius: 5px;
+}
+@media screen and (max-width : 768px) {
+    .hobby-blocks {
+        width: 315px;
+        margin: 10px auto 10px auto;
+        flex-direction: column;
+        
+    }
+}
+
+.icons {
+    margin: 20px;
+    width: 70px;
+}
+
+.hobby-titles {
+    margin-top: 0px;
+    color:#9A9FAD;
+}
+
+.hobby-info {
+    margin-bottom: 2px;
+    font-family: 'Noto Sans JP', sans-serif;
+    color: #0D1D2C;
+    font-weight: 400;
+    text-align: center;
+}
+

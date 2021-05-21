@@ -1,0 +1,132 @@
+/*Intro section*/
+#intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.intro-title {
+    margin: 50px 0px 0px 0px;
+    font-family: 'Noto Sans JP', sans-serif;
+    color: #0D1D2C;
+    font-size: 40pt;
+}
+@media screen and (max-width : 768px){
+    .intro-title {
+        font-size: 30pt;
+        text-align: center;
+    }
+}
+
+.intro-baseline {
+    margin: 30px 0px 0px 0px;
+    font-family: 'Noto Sans JP', sans-serif;
+    color: #0D1D2C;
+    font-size: 20pt;
+}
+@media screen and (max-width : 768px){
+    .intro-baseline {
+        font-size: 20pt;
+        text-align: center;
+    }
+}
+
+.portrait {
+    margin-top: 60px;
+    width: 250px;
+    border-radius: 50%;
+    z-index: 1;
+    border: solid #F9D9D7 4px;
+}
+@media screen and (max-width : 768px){
+    .portrait {
+        margin-bottom: 120px;
+    }
+}
+
+.intro-colored-box {
+    background-color:#9A9FAD;
+    margin-top: -120px;
+    width: 100vw;
+}
+@media screen and (max-width : 768px){
+    .intro-colored-box {
+        display: none;
+    }
+}
+
+.intro-presentation {
+    margin: 140px auto 140px auto;
+    width: 800px;
+    font-family: 'Noto Sans JP', sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 14pt;
+}
+
+/*Skills section*/
+
+#skills {
+    margin: -80px 0px 20px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+@media screen and (max-width : 768px){
+    #skills {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.skills-blocks{
+    margin: 0px 10px 0px 10px;
+    padding: 10px;
+    width: 350px;
+    background-color: white;
+    border: solid #526779 1px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+@media screen and (max-width : 768px){
+    .skills-blocks {
+        margin: 10px 10px 10px 10px;
+        width: 315px;
+    }
+}
+
+.icons {
+    margin: 20px;
+    width: 70px;
+}
+
+.skills-titles {
+    font-family: 'Noto Sans JP', sans-serif;
+    color: #526779;
+}
+
+.skills-info {
+    height: 70px;
+    padding-left: 0px 10px 0px 10px;
+    text-align: center;
+    font-weight:300;
+}
+
+.skills-subtitles {
+    font-family: 'Noto Sans JP', sans-serif;
+    color: #9A9FAD;
+}
+
+.skills-list {
+    list-style: none;
+    padding-left: 0px;
+    font-style: italic;
+    font-weight: 100;
+    text-align: center;
+}
+
+.skills-list li {
+    padding: 4px;
+}

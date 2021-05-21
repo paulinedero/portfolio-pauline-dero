@@ -1,0 +1,91 @@
+.experience-colored-box {
+    height: 250px;
+    margin-top: 100px;
+    background-color: #9A9FAD;
+}
+
+.experience-title {
+    margin-bottom: 0px;
+    padding-top: 30px;
+    font-family: 'Noto Sans JP', sans-serif;
+    color: white;
+    font-size: 40pt;
+    text-align: center;
+}
+
+.experience-intro {
+    color: white;
+    text-align: center;
+}
+
+.all-experiences {
+    margin: -60px auto 0px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+@media screen and (max-width : 768px) {
+    .all-experiences {
+        flex-direction: column;
+        align-items: center;
+        margin: 0px;
+    }
+}
+
+.experience-blocks {
+    width: 280px;
+    margin: 0px 10px 0px 10px;
+    padding: 10px;
+    background-color: white;
+    border: solid #526779 1px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+@media screen and (max-width : 768px) {
+    .experience-blocks {
+        margin: 10px 10px 10px 10px;
+    }
+}
+
+.experience-subtitles {
+    height: 55px;
+    margin-bottom: 5px;
+    font-size: 18pt;
+    color:#526779;
+    text-align: center;
+}
+
+.experience-date {
+    margin-top: 0px;
+    font-size: 11pt;
+    text-align: center;
+    font-style: italic;
+    font-weight: 100;
+    color: #526779;
+}
+
+.experience-info {
+    padding: 0px 10px 0px 10px;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 11pt;
+    font-weight:400;
+    color: #0D1D2C;
+    list-style: none;
+}
+@media screen and (max-width : 768px) {
+    .experience-info {
+        display: none;
+    }
+}
+
+.experience-info li {
+    padding: 4px;
+}
+
+@media screen and (max-width : 768px) {
+    #previous-exp {
+        display: none;
+    }
+}

@@ -1,0 +1,120 @@
+#project {
+    margin: 0px auto 0px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.project-title {
+    font-family: 'Noto Sans JP', sans-serif;
+    color: #0D1D2C;
+    font-size: 40pt;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.project-intro {
+    margin: 30px 0px 30px 0px;
+    font-family: 'Noto Sans JP', sans-serif;
+    color: #0D1D2C;
+    text-align: center;
+}
+
+.all-projects {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+@media screen and (max-width : 768px){
+    .all-projects {
+    flex-direction: column;
+   }
+}
+
+.project-blocks {
+    width: 280px;
+    margin: 0px 10px 0px 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:#526779;
+    border: solid #F9D9D7 1px;
+    border-radius: 5px;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+@media screen and (max-width : 768px){
+    .project-blocks {
+        margin: 5px 10px 5px 10px;
+   }
+}
+
+.project-subtitles {
+    font-size: 18pt;
+    text-align: center;
+    color:white;
+    margin-bottom: 5px;
+}
+
+.project-date {
+    font-size: 11pt;
+    text-align: center;
+    font-style: italic;
+    font-weight: 100;
+    color: white;
+    margin-top: 0px;
+}
+
+.project-info {
+    height: 80px;
+    margin-bottom: 30px;
+    padding: 0px 10px 0px 10px;
+    font-size: 11pt;
+    font-weight:400;
+    text-align: center;
+    color: white;
+}
+
+.project-collab {
+    padding: 0px 10px 0px 10px;
+    font-size: 11pt;
+    font-weight:300;
+    font-style: italic;
+    text-align: center;
+    color: white;
+}
+
+.link {
+    margin: 10px;
+    padding: 5px 10px 5px 10px;
+    background-color: #F9D9D7;
+    border: solid #E2BFA7 2px;
+    border-radius: 2px;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 10pt;
+    color: #0D1D2C;
+    text-decoration: none;
+}
+
+.link a :hover {
+    margin: 10px;
+    padding: 5px 10px 5px 10px;
+    background-color: #E2BFA7;
+    border: solid #F9D9D7 2px;
+    border-radius: 2px;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 10pt;
+    color: #0D1D2C;
+    text-decoration: none;
+}
+
+.link a :visited {
+    margin: 10px;
+    padding: 5px 10px 5px 10px;
+    background-color: #E2BFA7;
+    border: solid #F9D9D7 2px;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 10pt;
+    color: #0D1D2C;
+    text-decoration: none;
+}
