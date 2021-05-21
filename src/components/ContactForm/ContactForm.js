@@ -54,24 +54,6 @@ const ContactForm = () => {
           <img src={linkedin} alt="linkedin" className="social-icon" />
         </a>
       </div>
-      <div id="form">
-        <h3 className="contact-titles">Contactez-moi</h3>
-        <form onSubmit={handleSubmit}>
-          <div className="input-box">
-            <label htmlFor="name" className="title-form">Name:</label>
-            <input type="text" id="name" required className="input-form"/>
-          </div>
-          <div className="input-box">
-            <label htmlFor="email" className="title-form">Email:</label>
-            <input type="email" id="email" required className="input-form"/>
-          </div>
-          <div className="input-box">
-            <label htmlFor="message" className="title-form">Message:</label>
-            <textarea id="message" required className="input-form"/>
-          </div>
-          <button type="submit" className="button-form">{status}</button>
-        </form>
-      </div>
     </section>
   );
 };
