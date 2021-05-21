@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio-pauline-dero/static/css/main.d9f45def.chunk.css",
-    "main.js": "/portfolio-pauline-dero/static/js/main.a0f53eae.chunk.js",
-    "main.js.map": "/portfolio-pauline-dero/static/js/main.a0f53eae.chunk.js.map",
+    "main.js": "/portfolio-pauline-dero/static/js/main.ab062e83.chunk.js",
+    "main.js.map": "/portfolio-pauline-dero/static/js/main.ab062e83.chunk.js.map",
     "runtime-main.js": "/portfolio-pauline-dero/static/js/runtime-main.171c1258.js",
     "runtime-main.js.map": "/portfolio-pauline-dero/static/js/runtime-main.171c1258.js.map",
     "static/js/2.1af65e8a.chunk.js": "/portfolio-pauline-dero/static/js/2.1af65e8a.chunk.js",
@@ -29,6 +29,6 @@
     "static/js/runtime-main.171c1258.js",
     "static/js/2.1af65e8a.chunk.js",
     "static/css/main.d9f45def.chunk.css",
-    "static/js/main.a0f53eae.chunk.js"
+    "static/js/main.ab062e83.chunk.js"
   ]
 }
