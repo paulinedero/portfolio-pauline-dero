@@ -47,10 +47,10 @@ const ContactForm = () => {
       </div>
       <div id="social" className="social-box">
         <h3 className="contact-titles">Mes réseaux</h3>
-        <a href="https://www.linkedin.com/in/pauline-de-ro-9a377847/" className="reset">
+        <a href="https://github.com/paulinedero" className="reset">
           <img src={github} alt="github" className="social-icon" />
         </a>
-        <a href="https://github.com/paulinedero" className="reset">
+        <a href="https://www.linkedin.com/in/pauline-de-ro-9a377847/" className="reset">
           <img src={linkedin} alt="linkedin" className="social-icon" />
         </a>
       </div>
